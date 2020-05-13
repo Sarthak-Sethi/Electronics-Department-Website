@@ -1,3 +1,41 @@
-.s{
+* {
+	box-sizing:border-box;
+	/* manages widhth accordingly*/
+	margin: 0;
+}
+body{
+	font-family: "Raleway";
+}
+header {
+	height: 100vh;
+	*/ vh sets height according to window size*/
+	overflow:hidden;
+	*/ stops scrolling page*/
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	color: green;
+}
+.mainvideo{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100vh;
+	z-index: -100;
+}
+h1 {
+	margin: 16px;
+	letter-spacing: 4px;
+	font-size: 48px;
+	font-weight: 500;
+
+}
+
+.btn {
+	min-width: 190px;
+	color: black;
+	padding: 12px;
+	text-align: center;
+	background: yellow;
 }
