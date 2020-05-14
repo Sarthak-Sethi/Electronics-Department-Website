@@ -16,7 +16,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	color: green;
+	color: black;
 }
 .mainvideo{
 	position: absolute;
@@ -29,13 +29,74 @@ h1 {
 	letter-spacing: 4px;
 	font-size: 48px;
 	font-weight: 500;
-
+	border-radius: 25px;
+	width: =200px;
+	height: 90px;
+	border: 5px solid #000000;
+	background: yellow;
+	padding: 12px;
 }
 
 .btn {
-	min-width: 190px;
+	min-width: 180px;
 	color: black;
 	padding: 12px;
 	text-align: center;
 	background: yellow;
+	font-weight: 900;
+	text-decoration: none;
+	margin-top: 16px;
+	border: 5px solid #000000;
+	border-radius: 25px;
+  width: =150px;
+  height: 50px;
+	margin: 1px;
+}
+i {
+	margin: 0 8px;
+}
+ /* Nav Bar*/
+ .logo{
+	 height: 40px;
+ }
+ .logo img {
+	 height:100%;
+ }
+ nav {
+	 height: 60px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 20px;
+
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 z-index: 200;
+	 transition: all .4s;
+ }
+ nav.scroll {
+	 background: white;
+	 height: 50px;
+	 box-shadow: 0 4px 10px  -1px rgba(0,0,0,0.75);
+ }
+ nav.scroll .topnav li a {
+	 color: black;
+ }
+ .topnav{
+	 display: flex;
+ }
+ .topnav li {
+	 list-style: none;
+	 margin: 0px 100px 0px 50px;
+ }
+ .topnav li a {
+	 color: yellow;
+	 text-decoration: none;
+	 text-decoration-style: solid;
+ }
+.topnav li a:hover{
+	text-decoration: underline;
+	font-size: 150%;
 }
