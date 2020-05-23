@@ -6,6 +6,13 @@
 body{
 	font-family: "Raleway";
 }
+p {
+	line-height: 2;
+}
+.wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
 header {
 	height: 100vh;
 	*/ vh sets height according to window size*/
@@ -79,7 +86,7 @@ i {
  nav.scroll {
 	 background: white;
 	 height: 50px;
-	 box-shadow: 0 4px 10px  -1px rgba(0,0,0,0.75);
+	 box-shadow: 0 4px 10px  -1px rgba(0,0,0,0,.75);
  }
  nav.scroll .topnav li a {
 	 color: black;
@@ -99,4 +106,62 @@ i {
 .topnav li a:hover{
 	text-decoration: underline;
 	font-size: 150%;
+}
+/*sections*/
+section{
+	padding: 16px;
+	display: flex;
+}
+section thumbnail img {
+height: 320px;
+width: 200%;
+position:relative;
+margin-right: 10px;
+float: right;
+display: inline-block;
+}
+h2 {
+	margin: 8px 0;
+	background: yellow;
+	widhth: 200px;
+	padding: 8px;
+}
+/*gallery section*/
+.gallery{
+	background:url('poster.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.active-image{
+	max-width: 700px;
+	position: relative;
+	margin: 0 auto;
+}
+.active-img-desc{
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	right: 16px;
+	background-color: yellow;
+	padding: 16px;
+	color: black;
+}
+.active-image img,.work-gallery .img-card img{
+	width: 100%;
+	border: 2px solid black;
+}
+.work-gallery .img-card .img-desc{
+	display: none;
+}
+.work-gallery{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.work-gallery .img-card{
+	width: 200px;
+	margin : 8px;
+	cursor: pointer;
 }
