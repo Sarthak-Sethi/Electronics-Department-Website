@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,800;1,900&display=swap"
 		rel="stylesheet">
+		  <link rel="stylesheet" href="glider.min.css">
 		<script src="https://kit.fontawesome.com/e617c4de38.js" crossorigin="anonymous"></script>
 		<title>Electronics(ECE)</title>
 	</head>
@@ -119,6 +120,92 @@
 </div>
 </section>
 <!-- work ends -->
+
+<div class="wrapper">
+	<section class="faculties">
+		<h2>Faculty</h2>
+		<div class="gilder-contain">
+			<div class="glider">
+				<div class="faculty">
+					<img src="soh.jpg" alt="Rajdeep Singh Sohal">
+					<h3> <b>Rajdeep Singh Sohal</b> </h3>
+					<p>
+							Assistant Professor<br>
+							Pursuing Ph.D., M.Tech.(Communication Systems), GATE
+							GNDU,Amritsar<br>
+							Specialization : Wireless Communication, Networks<br>
+							Experience : 7 Years 10 Months<br>
+							rajdeep.ecespl@gndu.ac.in<br>
+							Punjab, 9780033231<br>
+					</p>
+				</div>
+
+				<div class="faculty">
+					<img src="rs.jpg" alt="Dr. Ravinder Singh Sawhney">
+					<h3> <b>Dr. Ravinder Singh Sawhney</b></h3>
+					<p>
+							Professor<br>
+							Ph.D (nanoelectroics), M.Tech (Information Technology), MBA (Marketing Management),
+							B.Tech (Electronics Engineering)<br>
+							Specialization : Electron Transport through Molecular Junctions, Molecular Electronics,
+							Data Communication, Opinion Mining and Sentiment Analysis using Social Networks, MANETS,
+							 WLANs, WSNs<br>
+							Experience : 22 Years 6 Months<br>
+							sawhney.ece@gndu.ac.in<br>
+								Punjab, 8427202122<br>
+					</p>
+				</div>
+
+				<div class="faculty">
+					<img src="s.jpg" alt="Dr Shalini Bahel">
+					<h3> <b>Dr Shalini Bahel</b></h3>
+					<p>
+							Assistant Professor and HEAD<br>
+							B.E., M.Tech., Ph.D.<br>
+							Specialization : Microwave Materials, Dielectric Ceramics, Digital
+							and Microwave Communication<br>
+							Experience : 15 Years 10 Months<br>
+							shalini.elec@gndu.ac.in <br>
+								Punjab, 9417276049 <br>
+					</p>
+				</div>
+
+				<div class="faculty">
+					<img src="k.jpg" alt="Kuldeep Singh">
+					<h3> <b>Kuldeep Singh</b></h3>
+					<p>
+							Assistant Professor<br>
+							B.Tech (ECE), M.E.(ECE)<br>
+							Specialization : Internet of Things in Healthcare, Machine Learning,
+							Biomedical Signal Processing<br>
+							Experience : 7 Years 10 Months<br>
+							kuldeepsinghbrar87@gmail.com <br>
+							Punjab, 9779540889 <br>
+					</p>
+				</div>
+			</div>
+							<div id="dots"></div>
+			        <button class="glider-prev"><i class="fas fa-chevron-circle-left"></i></button>
+			        <button class="glider-next"><i class="fas fa-chevron-circle-right"></i></button>
+
+		</div>
+	</section>
+	</div>
+</div>
+   <!-- faculty ends -->
+
 	<script type="text/javascript" src="main.js"> </script>
+
+  <script src="glider.min.js"></script>
+	<script>
+	new Glider(document.querySelector(".glider"), {
+		slidesToShow: 1,
+		dots: "#dots",
+		arrows: {
+			prev: '.glider-prev',
+			next: '.glider-next'
+		}
+	})
+</script>
 	</body>
 </html>

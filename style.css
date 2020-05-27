@@ -165,3 +165,27 @@ h2 {
 	margin : 8px;
 	cursor: pointer;
 }
+ /* Faculty */
+
+ .faculties {
+   flex-direction: column;
+ }
+
+ .faculty {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+ }
+
+ .faculty img {
+   width:150px;
+   border-radius:50%;
+   margin: 24px;
+ }
+
+ h3 {
+	 style: bold;
+   margin:8px;
+   font-weight:normal;
+ }

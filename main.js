@@ -1,6 +1,6 @@
 const activeImage = document.querySelector(".active-image img");
 const images = document.querySelectorAll(".img-card img");
-const activeDesc = documnet.querySelector(".active-img-desc");
+const activeDesc = document.querySelector(".active-img-desc");
 
 // listeners
  images.forEach(image => (image.addEventListener("click",changeImage)));
