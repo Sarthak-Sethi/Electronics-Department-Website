@@ -166,7 +166,6 @@ h2 {
 	cursor: pointer;
 }
  /* Faculty */
-
  .faculties {
    flex-direction: column;
  }
@@ -191,6 +190,71 @@ h2 {
  }
 
 
+/* contact us */
+/* .contact-background{
+	background:url('poster.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+} */
+ .contact {
+   flex-direction: column;
+ }
+
+ .contact form {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .contact form input,
+ .contact form textarea {
+   padding: 12px;
+   margin: 8px 0;
+   font-family:"Raleway", sans-serif;
+ }
+
+ .contact form input[type="submit"] {
+   background:yellow;
+   color:black;
+   border:none;
+ }
+
+ /* Footer */
+
+ footer {
+	 background:url('poster.png');
+	 background-size: cover;
+	 background-position: center;
+	 background-attachment: fixed;
+   color:black;
+   text-align: center;
+   padding: 16px;
+ }
+
+ .social-icons {
+   margin:16px;
+   font-size:32px;
+ }
+
+ .social-icons a {
+   color:black;
+ }
+
+ footer i {
+   transition: all .4s;
+ }
+
+ footer .fa-facebook:hover {
+   color:#3c5a99;
+ }
+
+ footer .fa-instagram:hover {
+   color:#e1306c;
+ }
+
+ footer .fa-twitter-square:hover {
+   color:#1da1f2;
+ }
 
 
 
